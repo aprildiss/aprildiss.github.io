@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Golf Club</title>
+    <script src="mobile_menu.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="style_sheet.css" rel="stylesheet" type="text/css">
+    <link href="responsive_style.css" rel="responsivestyle" type=text/css">
+    <title>Laindon Golf Club</title>
   </head>
   <body>
-    <h1>Laindon Golf Club</h1>
-    <!--Example of an un-ordered list-->
-    <ul>
-      <li>
-        <a href="Golf.html">Golf</a>
-      </li>
-    </ul>
-    <footer>
+    
+
+
+    
+     <div class="uni_logo" id="unicode">
+       <img src="img/uoe_logo.png" width="120px" height="49px">
+     </div>
+
+      <!-- University logo --><!-- Top Navigation -->
+      <ul class="topnav" style="width:90%">
+        <li><a href="Golf.html">Golf</a></li>
+        <li><a href="#news">College news</a></li>
+        <li><a href="#contact">Guild &amp; society events</a></li>
+        <li><a href="#about">Event Analaytics</a></li>
+        <li><a href="#about">Contact us</a></li>
+        <li class="icon">
+        <a href="javascript:void(0);" onclick="showResponsiveMenu()">☰</a>
+       </li>
+     </ul>
+
+      <!--Content -->
+      <div class="content">
+        <div class="introContainer"><p class="introText"></p><p>The events app shows a variety of different news and events happening at the University of Exeter. Click or tap the menu options to see events for a particular category.
+          General University news events are shown below</p></div>
+        <div class="panel-header"><h1>Events App</h1></div>
+        <div class="panel-body">
+          <ul class="list">
+            <li><h3>Test event</h3><p>This is a dummy event which will be replaced with live data later in the module</p></li>
+            <li><h3>Test event</h3><p>This is a dummy event which will be replaced with live data later in the module</p></li>
+            <li><h3>Test event</h3><p>This is a dummy event which will be replaced with live data later in the module</p></li>
+            <li><h3>Test event</h3><p>This is a dummy event which will be replaced with live data later in the module</p></li>
+            <li><h3>Test event</h3><p>This is a dummy event which will be replaced with live data later in the module</p></li>
+            <li><h3>Test event</h3><p>This is a dummy event which will be replaced with live data later in the module</p></li>
+          </ul>
+        </div>
+      </div>
   </body>
 </html>
+
